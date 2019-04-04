@@ -20,7 +20,7 @@ public:
 // constructor: member function of class name, initialize object, no return, nonconst
 // default cosntructor, call with no argument, otherwise compiler synthesize default
     Person()=default;
-// class name(parameters): class members() {}, omit member: default
+// class name(parameters): class members(val) {}, omit member: default
     Person(const string ns): name(ns) {}
 // explicit: no type conversion for single argument, inside class use, no copy=
     explicit Person(istream &);
