@@ -68,7 +68,7 @@ inline Screen &Screen::set(char c){
     contents[cursor]=c;
     return *this;
 }
-// return type st before function name, need class scope::
+// return type st before function name, also need class scope::
 Screen::st Screen::size() const{
     return height*width;
 }
